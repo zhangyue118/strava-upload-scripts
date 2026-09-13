@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Claude Code 的本机会话状态
+.claude/
+
+# ── 凭据与本地状态：绝对不要提交 ──────────────────────────────
+.strava_cookie
+.strava_uploads.db
+
+# ── 抓包 / 调试产物 ───────────────────────────────────────────
+# HAR 里带 Cookie 请求头和 CSRF token，而且动辄几百 MB
+*.har
+captured_upload.json
+strava_upload_results.json
+
+# ── 运动数据文件 ──────────────────────────────────────────────
+# 防止使用者把自己的活动数据误提交上来
+*.fit
+*.fit.gz
+*.gpx
+*.gpx.gz
+*.tcx
+*.tcx.gz

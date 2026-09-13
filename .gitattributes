@@ -1,0 +1,4 @@
+# .bat 是 GBK 编码（cmd 默认代码页 936），且带 CRLF 换行。
+# 让 git 保持原样、不做任何文本转换 —— 否则在 autocrlf=false 的机器上
+# 检出会变成 LF，cmd.exe 对 LF 换行的 if(...) 多行块处理不可靠。
+*.bat -text
