@@ -219,6 +219,10 @@ cookie，还是该去改代码。
 - `.gpx` / `.gpx.gz` — GPS 轨迹通用格式
 - `.tcx` / `.tcx.gz` — Garmin Training Center XML
 
+## 许可证
+
+[MIT](LICENSE) © 2026 zhangyue118
+
 ## 替代方案：自建平台
 
 如果不想依赖 Strava，推荐 **[Endurain](https://github.com/endurain-project/endurain)** —
